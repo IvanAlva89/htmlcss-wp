@@ -75,6 +75,70 @@ main {
 .left {
   background-color: rgb(255,255,255);
   width: 25%;
-  height: 200px;
+}
 
+.org-main::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.rss-ico {
+  float: left;
+  width: 20%;
+}
+
+.rss-ico i{
+  margin-left: 20%;
+  font-size: 25px;
+  color: rgb(255,128,0);
+}
+
+.org-title {
+  font-size: 17px;
+  float: left;
+  width: 80%;
+  color: #504741;
+}
+
+.org-title h2{
+  margin-top: 0;
+  font-weight: 400;
+}
+
+.nav-main {
+  list-style: none;
+}
+
+.nav-main a{
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: green;
+}
+
+.nav-main li {
+  padding: 5px;
+}
+
+.center {
+  background-color: rgb(255,255,255);
+  width: 40%;
+  margin-left: 5%;
+}
+
+main h2 {
+  padding: 20px;
+  color: #504741;
+}
+
+main p {
+  padding: 20px;
+  line-height: 35px;
+}
+
+.right {
+  background-color: rgb(255,255,255);
+  width: 25%;
+  height: 200px;
+  margin-left: 5%;
 }
