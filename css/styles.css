@@ -53,6 +53,28 @@ body {
   font-weight: 700;
   line-height: 40px;
   text-decoration: none;
+}
 
+/* MAIN */
+
+main {
+  margin-top: 15px;
+}
+
+.main::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.col {
+  float:left;
+  border-radius: 5px;
+}
+
+.left {
+  background-color: rgb(255,255,255);
+  width: 25%;
+  height: 200px;
 
 }
