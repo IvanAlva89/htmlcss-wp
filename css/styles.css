@@ -32,7 +32,7 @@ body {
 }
 
 .top h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 22px;
   color: rgb(255,255,255);
 }
@@ -89,9 +89,10 @@ main {
 }
 
 .rss-ico i{
-  margin-left: 20%;
-  font-size: 25px;
   color: rgb(255,128,0);
+  font-size: 25px;
+  margin-left: 15%;
+  padding: 5px;
 }
 
 .org-title {
@@ -101,8 +102,8 @@ main {
   color: #504741;
 }
 
-.org-title h2{
-  margin-top: 0;
+main aside div div h2{
+  padding: 1px;
   font-weight: 400;
 }
 
@@ -111,7 +112,6 @@ main {
 }
 
 .nav-main a{
-  font-family: 'Roboto', sans-serif;
   text-decoration: none;
   color: green;
 }
@@ -126,9 +126,10 @@ main {
   margin-left: 5%;
 }
 
-main h2 {
+main section h2 {
   padding: 20px;
   color: #504741;
+  text-shadow: 2px 2px 0 rgba(0,0,0, 0.1);
 }
 
 main p {
@@ -137,8 +138,18 @@ main p {
 }
 
 .right {
-  background-color: rgb(255,255,255);
   width: 25%;
-  height: 200px;
   margin-left: 5%;
+}
+
+main aside div h2 {
+  padding: 20px;
+  color: #504741;
+}
+
+aside .col-text {
+  background-color: rgb(255,255,255);
+  margin-bottom: 20px;
+  border-radius: 5px;
+
 }
