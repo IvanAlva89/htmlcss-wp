@@ -17,6 +17,7 @@ body {
   margin: 25px auto;
 }
 
+
 /* HEADER */
 
 .top {
@@ -117,7 +118,7 @@ main aside div div h2{
 }
 
 .nav-main li {
-  padding: 5px;
+  padding: 10px;
 }
 
 .center {
@@ -151,5 +152,41 @@ aside .col-text {
   background-color: rgb(255,255,255);
   margin-bottom: 20px;
   border-radius: 5px;
-
 }
+
+/* FOOTER */
+
+footer {
+  background-color: rgb(245,245,245);
+  padding: 5px;
+  margin-top: 114%;
+  border-radius: 5px;
+}
+
+footer p {
+  text-align: center;
+  font-style: italic;
+  color: rgb(192,192,192);
+}
+
+.social-list {
+  list-style: none;
+}
+
+.social-list::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.social-list li {
+  float: left;
+  width: 33%;
+  text-align: center;
+  padding: 30px;
+}
+
+.social-list li i{
+  color: rgb(192,192,192);
+  font-size: 35px;
+  padding: 10px;
