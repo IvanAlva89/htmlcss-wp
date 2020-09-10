@@ -159,8 +159,8 @@ aside .col-text {
 footer {
   background-color: rgb(245,245,245);
   padding: 5px;
-  margin-top: 114%;
   border-radius: 5px;
+  clear:both;
 }
 
 footer p {
